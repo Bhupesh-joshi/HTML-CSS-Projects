@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.section-class {
+    max-width: 1380px;
+    width: 100%;
+    height: 100vh;
+}
+
+.section-class .bg-div {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Accets/1713147.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-class .bg-div .content 
+{
+    padding: 20px 20px 30px 20px;
+    /* background: orchid; */
+    height: 100vh;
+}
+
+.section-class .bg-div .content .upper-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-class .bg-div .content .upper-div .upper-div-1
+{
+    
+    width: 34%;
+    padding: 10px;
+    border: 6px solid #20C20E;
+    color: #20C20E;
+}
+
+.section-class .bg-div .content .upper-div .upper-div-1 p 
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-class .bg-div .content .upper-div .upper-div-2
+{
+    
+    width: 20%;
+    height: 116px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 6px solid #20C20E;
+    color: #20C20E;
+}
+
+.section-class .bg-div .content .upper-div .upper-div-2 p 
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.section-class .bg-div .content .lower-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-class .bg-div .content .lower-div .lower-div-1
+{
+    
+    width: 37%;
+    padding: 10px;
+    border: 6px solid #20C20E;
+    color: #20C20E;
+}
+
+.section-class .bg-div .content .lower-div .lower-div-1 p 
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-class .bg-div .content .lower-div .lower-div-1 div {
+    text-align: center;
+}
+
+.section-class .bg-div .content .lower-div .lower-div-2
+{
+    width: 38%;
+    background: black;
+    padding: 10px;
+    border: 6px solid #20C20E;
+    color: #20C20E;
+}
+
+.section-class .bg-div .content .lower-div .lower-div-2 div
+{
+    justify-content: center;
+    display: flex;
+}
+
+.section-class .bg-div .content .lower-div .lower-div-2 div p
+{
+    width: 120px;
+    height: 100px;
+    background: dimgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.section-class .bg-div .content .lower-div .lower-div-2 p 
+{
+    font-size: 20px;
+    font-weight: 700;
+}
